@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.div-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 1px 0.3px 5px 1px black;
+
+    width: 100%;
+    height: 15vh;
+}
+
+.img-central {
+    width: 35px;
+    height: 35px;
+}
+
+.div-navbar>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: 30px;
+    width: 35%;
+}
+
+.div-navbar>ul>li {
+    list-style: none;
+}
+
+.div-navbar>ul>li:hover {
+    transform: scale(1.08);
+}
+
+ul>li>a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #333333;
+}
+
+ul>li>a:hover {
+    color: #b90504;
+}
+
+.div-icons-navbar {
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+
+    display: flex;
+    right: 40px;
+
+
+    width: 130px;
+    height: 10px;
+}
+
+.div-icons-navbar>img {
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.div-perfil {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+    border: 0.5px solid black;
+    border-radius: 4px;
+
+    height: 350px;
+    width: 230px;
+    left: 90px;
+    top: 130px;
+}
+
+.img-perfil {
+    display: flex;
+    position: absolute;
+
+    top: 10px;
+    width: 66%;
+    height: 45%;
+}
+
+.img {
+    display: flex;
+
+    border-radius: 50%;
+
+    width: 100%;
+    height: 100%;
+}
+
+.text-perfil {
+    display: flex;
+    width: 80%;
+    height: 49%;
+    word-break: keep-all;
+    margin-top: 184px;
+    color: black;
+}
+
+.div-tecnologias {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 260px;
+    width: 230px;
+    left: 90px;
+    top: 540px;
+
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.display-column {
+    display: flex;
+}
+
+.title-tecnologias {
+    flex-direction: row;
+    margin-top: -10px;
+    height: 50px;
+    font-size: 19px;
+    color: #b90504;
+}
+
+.col1 {
+    flex-direction: row;
+    text-align: center;
+
+    width: 50%;
+    height: 60%;
+    bottom: 0;
+}
+
+.col1>div {
+    margin-bottom: 10px;
+}
+
+.col2 {
+    flex-direction: row;
+    text-align: center;
+    width: 50%;
+    height: 60%;
+    bottom: 0;
+}
+
+.col2>div {
+    margin-bottom: 10px;
+}
+
+.div-formacaoacademica {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 90px;
+    top: 130px;
+
+    width: 250px;
+    height: 200px;
+
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.title-formacao {
+    margin-top: 17px;
+    font-size: 19px;
+    height: 23%;
+    text-align: center;
+    color: #b90504;
+}
+
+.descricao-formacao {
+    display: flex;
+    text-align: center;
+    width: 200px;
+    height: 77%;
+    word-break: keep-all;
+}
+
+.div-qrcode {
+    text-align: center;
+    color: #b90504;
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    right: 160px;
+    top: 350px;
+    width: 100px;
+    height: 100px;
+}
+
+.div-qrcode>img {
+    width: 100%;
+    height: 100%;
+}
+
+.div-card-atividade1 {
+    margin-top: 50px;
+}
+
+.div-card-atividade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 23%;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 170px;
+}
+
+.card-atividade {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    left: 0px;
+    width: 68%;
+    height: 145px;
+    border: 1px solid #b90504;
+
+    background-color: #dba8a8;
+}
+
+.title-card {
+    text-align: center;
+    width: 40%;
+    color: black;
+    border-bottom: 0.1px solid black;
+}
+
+.descricao-card {
+    text-align: center;
+    height: 105px;
+    flex-wrap: wrap;
+    color: black;
+    width: 80%;
+    margin-top: 9px;
+}
+
+.descricao-card>a {
+    text-decoration: wavy;
+    color: blue;
+}
+
+.descricao-card > a:hover {
+    font-size: 15px;
+    color: black;
+}
+
+.back-to-top {
+    position: fixed;
+    background-color: #b90504;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    bottom: 45px;
+    right: 45px;
+    border: none;
+}
